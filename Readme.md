@@ -5,11 +5,11 @@
 # Todos
 
 - [x] Net/HTTP
-- [ ] Rest API Server
-- [ ] Model Todo
+- [x] Rest API Server
+- [x] Model Todo
 - [ ] Endpoint
-  - [ ] Get all
-  - [ ] Get by ID
-  - [ ] Create New Todo
-  - [ ] Update Todo By ID
-  - [ ] Delete Todo By ID
+  - [ ] Get all / http method GET
+  - [ ] Get by ID / http method GET + path id
+  - [ ] Create New Todo / http method POST + body
+  - [ ] Update Todo By ID / http method PUT + path id + body
+  - [ ] Delete Todo By ID / http method DELETE + path id

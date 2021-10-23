@@ -1,6 +1,30 @@
+### Get Index
 GET http://localhost:8000/
 
 
-###
-
+### Get All todos
 GET http://localhost:8000/todo
+
+### Get Todo by ID
+GET http://localhost:8000/todo/1
+
+### Create Todo
+POST http://localhost:8000/todo
+Content-Type: application/json
+
+{
+  "title": "new todo from client 3",
+  "description": "wanna buy some milk for today"
+}
+
+### Update Todo By ID
+PUT http://localhost:8000/todo/1
+Content-Type: application/json
+
+{
+  "title": "update first todo",
+  "description": "have fun"
+}
+
+### Delete Todo By ID
+DELETE http://localhost:8000/todo/2
